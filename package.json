@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "scripts": {
-    "start": "serve dist/"
+    "start": "serve docs/"
   },
   "devDependencies": {
     "serve": "^14.2.0"

@@ -1,6 +1,4 @@
-### [Codesandbox](https://codesandbox.io/p/github/zummon/theme-universe/)
-
-The files are inside `dist` folder.
+The files are inside `docs` folder.
 
 Something breaks, needs upgrade. Let me know.
 
