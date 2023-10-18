@@ -4,16 +4,16 @@ document.addEventListener("DOMContentLoaded", function () {
 		{
 			type: "blue",
 			name: "Blue",
-			plate: "bg-light text-primary",
+			plate: "text-[rgb(13,110,253)]",
 			svgcolor: "",
-			card: "text-white bg-primary",
+			card: "text-white bg-[rgb(13,110,253)]",
 			link: "text-white",
-			button: "btn-outline-primary"
+			button: "border-[rgb(13,110,253)]"
 		},
 		{
 			type: "dark",
 			name: "Dark",
-			plate: "bg-dark text-white",
+			plate: "bg-[rgb(33,37,41)] text-white",
 			svgcolor: "text-info",
 			card: "text-white bg-info",
 			link: "text-white",

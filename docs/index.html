@@ -1,40 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <title>Theme Universe</title>
-  <meta name="description" content="One page website with changeable multiple color themes." />
-  <script src="./script.js"></script>
-</head>
-<body>
-
-<!-- add more [data-theme] attribute to specify which one will change as current theme -->
-<div class="p-sm-5" data-theme="plate">
-	<div class="card mb-4 mx-auto" style="max-width: 640px;" data-theme="plate">
-		<div class="card-body">
-			<div class="row">
-				<div class="col-sm-auto text-center">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Theme Universe</title>
+		<meta name="description" content="One page website with changeable multiple color themes." />
+		<link rel="stylesheet" href="./style.css">
+		<script src="./script.js"></script>
+	</head>
+	<body>
+		<!-- add more [data-theme] attribute to specify which one will change as current theme -->
+		<div class="sm:p-12" data-theme="plate">
+			<div class="mx-auto mb-4 flex flex-wrap justify-center rounded-md border p-4" style="max-width: 640px;">
+				<div class="text-center">
 					<!-- https://icons.getbootstrap.com/ -->
 					<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" viewBox="0 0 16 16">
 						<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
 						<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
 					</svg>
 				</div>
-				<div class="col-sm text-center text-sm-end mt-4 mt-sm-0">
-					<h1>Theme Universe</h1>
-					<a class="btn" href="https://www.zummon.page/" target="_blank">
-						Made by zummon
-					</a>
+				<div class="mt-4 grow text-center sm:mt-0 sm:text-end">
+					<h1 class="mb-2 text-3xl font-medium xl:text-4xl">Theme Universe</h1>
+					<a class="inline-block rounded-md border px-3 py-1.5" href="https://zummon.page/" target="_blank"> Made by zummon </a>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="row justify-content-center">
-		<div class="col-sm-8 col-lg-6">
-			<div data-theme="svgcolor">
+			<div class="mx-auto" style="max-width: 768px;" data-theme="svgcolor">
 				<!-- https://undraw.co/ -->
-				<svg class="img-fluid" xmlns="http://www.w3.org/2000/svg" width="781.72275" height="640.45022" viewBox="0 0 781.72275 640.45022">
+				<svg class="h-auto max-w-full" xmlns="http://www.w3.org/2000/svg" width="781.72275" height="640.45022" viewBox="0 0 781.72275 640.45022">
 					<path d="M689.00334,238.75c-75.14014-.00677-133.99878-13.62878-133.99721-31.01208.00094-10.42188,20.85774-19.71882,57.22227-25.50607a1,1,0,1,1,.31428,1.97512c-34.25538,5.452-55.53573,14.46863-55.53655,23.53113-.00142,15.71973,60.44587,29.00545,131.99739,29.0119s132.00119-13.26837,132.00261-28.9881c.00082-9.10059-21.41389-18.143-55.88752-23.59781a1.00008,1.00008,0,1,1,.31268-1.97556c36.59054,5.78992,57.57578,15.11115,57.57484,25.57355C823.00456,225.14538,764.14347,238.75677,689.00334,238.75Z" transform="translate(-205.21322 -124.75)" fill="#3f3d56" />
 					<path d="M622.52429,244.58239a76.98278,76.98278,0,0,0,133.14994-.32351A1211.97886,1211.97886,0,0,1,622.52429,244.58239Z" transform="translate(-205.21322 -124.75)" fill="currentColor" />
 					<path d="M763.04676,222.8796a76.997,76.997,0,1,0-147.85749.78574A572.23315,572.23315,0,0,0,763.04676,222.8796Z" transform="translate(-205.21322 -124.75)" fill="currentColor" />
@@ -62,32 +53,21 @@
 					<path d="M303.66,359.91h-1.82v-1.82a2.34,2.34,0,1,0-4.68,0v1.82h-1.82a2.34,2.34,0,1,0,0,4.68h1.82v1.82a2.34,2.34,0,1,0,4.68,0v-1.82h1.82a2.34,2.34,0,1,0,0-4.68Z" transform="translate(-205.21322 -124.75)" fill="currentColor" />
 				</svg>
 			</div>
-			<div class="card" data-theme="card">
-				<div class="card-body">
-					<div class="row">
-						<div class="col-sm">
-							<h1>How does it work?</h1>
-							<h4>Select one of the options to see</h4>
-						</div>
-						<div class="col-sm-auto">
-							<!-- to change current theme -->
-							<select id="setting" class="form-select form-select-lg">
-								<!-- leave it empty, JavaScript will do -->
-							</select>
-						</div>
+			<div class="rounded-md border p-4" style="max-width: 640px;" data-theme="card">
+				<div class="flex flex-wrap">
+					<div class="grow">
+						<h1 class="mb-2 text-3xl font-medium xl:text-4xl">How does it work?</h1>
+						<h4 class="text-lg font-medium xl:text-xl">Select one of the options to see</h4>
 					</div>
-					<p class="mt-4">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Repellendus tempora possimus ullam tenetur atque temporibus,
-						praesentium pariatur quibusdam sunt voluptate quaerat repellat,
-						suscipit cum assumenda ea reiciendis accusantium debitis
-						expedita!
-					</p>
+					<div class="">
+						<!-- to change current theme -->
+						<select class="rounded-md" multiple id="setting">
+							<!-- leave it empty, JavaScript will do -->
+						</select>
+					</div>
 				</div>
+				<p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempora possimus ullam tenetur atque temporibus, praesentium pariatur quibusdam sunt voluptate quaerat repellat, suscipit cum assumenda ea reiciendis accusantium debitis expedita!</p>
 			</div>
 		</div>
-	</div>
-</div>
-
-</body>
+	</body>
 </html>
